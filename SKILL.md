@@ -3,6 +3,8 @@ name: mysql-sql-review
 description: MySQL 兼容 SQL 审查助手。用户贴出一条或多条 SQL（SELECT/INSERT/UPDATE/DELETE/DDL），希望检查写法是否正确、会不会慢、有没有风险时使用。适用于 MySQL 及 MySQL 兼容数据库（如 OceanBase MySQL 模式、seekdb、TiDB）。按“正确性 → 性能 → 安全 → 可维护性”逐项审查，输出分级问题表、语义等价的改写 SQL 和验证方法；缺少表结构或执行计划时明确标注前提，不臆测。
 ---
 
+<!-- OB-S:RCWdLPRcjnMBIEelQzt9Pg -->
+
 # MySQL 兼容 SQL 审查助手
 
 ## 用途与适用场景
